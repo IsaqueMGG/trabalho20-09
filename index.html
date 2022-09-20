@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Volocidade Média</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Velocidade Média</h1>
+    </header>
+    <nav>
+        <ul onclick="irparahome()">Home</ul>
+        <ul onclick="irparasobre()">Sobre</ul>
+    </nav>
+    <div class="container">
+        <h3>Cálculo</h3>
+        <input type="number" id="a" placeholder="Informe o valor de deslocamento">
+        <input type="number" id="b" placeholder="Informe o intervalo de tempo"> 
+        <div>
+            <button onclick="calcular()">Calcular</button>
+            <button onclick="limpar()">Limpar</button>
+        </div>
+    </div>
+    <div class="pericles">
+        <h3>Resultado</h3>
+        <div id="resultado"></div>
+        
+    </div>
+    <script src="./script.js"></script>
+    <footer>
+        <li>Aluno - Isaque</li>
+        <li>Sesi Senai 2B</li>
+        <li>SC Florianópolis</li>
+    </footer>
+</body>
+</html> 
